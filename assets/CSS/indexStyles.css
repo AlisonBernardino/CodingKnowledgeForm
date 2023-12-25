@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(46 142 198);
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  padding: 0px 2rem;
+  border: 1px solid;
+  max-width: 50rem;
+  margin: 2rem auto;
+}
+
+.mainHeadingArea {
+  text-align: center;
+  color: rgb(255 255 255);
+  font-size: 4rem;
+  margin: 2rem 0rem 1rem;
+}
+
+/* Form stylization */
+.formClassArea {
+  margin: 2rem 0px;
+}
+
+.formControlArea {
+  flex-direction: column;
+  display: flex;
+}
+
+.headingField {
+  margin: 1rem 0px 0.6rem;
+}
+
+.fieldHeadArea {
+  font-size: 2rem;
+}
+
+.inputDivArea {
+  margin-bottom: 1rem;
+}
+
+.fieldInputsArea {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.formControlInput {
+  font-size: 1rem;
+  color: rgb(138 138 138);
+  padding: 0.4rem 0px;
+  border: none;
+  width: 100%;
+  text-indent: 0.5rem;
+  border-radius: 7px;
+  outline: 1px solid rgb(138 138 138);
+}
+
+option {
+  color: rgb(138 138 138);
+}
+
+.radio {
+  outline: none;
+}
+
+.formControlInput:focus {
+  color: rgb(38 41 52);
+  border-color: rgb(246 246 246);
+  background-color: rgb(219 248 224);
+  box-shadow: 0 0 0 0.25rem rgba(37 253 13 0.25);
+  box-shadow: 0 0 0 0.25 rgb(13 110 253 / 25%);
+  outline: 0;
+}
+
+.helpText {
+  padding: 0.1rem;
+  margin-top: 0.4rem;
+}
+
+button {
+  display: block;
+  border: 1px solid rgb(255 255 255);
+  color: rgb(0 0 0);
+  background-color: rgb(115 253 129);
+  font-size: 2rem;
+  margin: 0px auto;
+  padding: 0.5rem 0.8rem;
+  box-shadow: 1px rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  border-radius: 10px;
+}

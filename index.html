@@ -1,0 +1,271 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding knowledge form - HTML5/CSS3</title>
+    <link rel="stylesheet" href="./assets/CSS/indexStyles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="mainHeadingArea">Coding knowledge form - HTML5/CSS3</h2>
+      <hr />
+
+      <!-- Form area -->
+      <form class="formClassArea">
+        <!-- Stack area -->
+        <div class="formControlArea">
+          <div class="headingArea">
+            <h3 class="fieldHeadArea">Technical focus</h3>
+          </div>
+          <div class="fieldInputs">
+            <div class="inputDivArea">
+              <div id="stackTitleHelp" class="helpText">
+                Stack title:
+              </div>
+              <input
+                type="text"
+                class="formControlInput"
+                id="stackTitle"
+                name="firstNameArea"
+                required
+              />
+            </div>
+            <div class="inputDivArea">
+              <div id="stackSubjectHelp" class="helpText">
+                Stack sub-theme:
+              </div>
+              <input
+                type="text"
+                class="formControlInput"
+                id="stackSubject"
+                name="subjectArea"
+                required
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Coder level -->
+        <div class="formControlArea">
+          <div class="headingField">
+            <h3 class="fieldHeadArea">Development goals</h3>
+          </div>
+
+          <div>
+            <div class="inputDivArea">
+              <div id="coderLevelHelp" class="helpText">Desired seniority base: </div>
+              <input
+                type="text"
+                class="formControlInput"
+                id="currentCoderLevel"
+                name="currentCoderLevelArea"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <div class="inputDivArea">
+              <div id="coderLevelFocusHelp" class="helpText">
+                Current coder seniority:
+              </div>
+              <input
+                type="text"
+                class="formControlInput"
+                id="coderLevelFocus"
+                name="coderLevelFocusArea"
+                required
+              />
+              
+            </div>
+          </div>
+          <div class="fieldInputs">
+            <div class="inputDivArea">
+              <div id="studyPlanHelp" class="helpText">Study plan:</div>
+              <input
+                type="text"
+                class="formControlInput"
+                id="studyPlanField"
+                name="studyPlan"
+                required
+              />
+              
+            </div>
+            <div class="inputDivArea">
+              <div id="topicsQuantityHelp" class="helpText">
+                Topics quantity:
+              </div>
+              <input
+                type="text"
+                class="formControlInput"
+                id="topicsQuantityField"
+                name="topicsQuantity"
+                required
+              />
+            </div>
+          </div>
+          <div class="fieldInputs">
+            <div class="inputDivArea">
+              <div id="monthsGoalHelp" class="helpText">Months goal:</div>
+              <input
+                type="number"
+                class="formControlInput"
+                id="MonthsGoalField"
+                name="monthsGoal"
+                required
+              />
+            </div>
+            <div class="inputDivArea">
+              <div id="codingProjectsHelp" class="helpText">
+                Projects model:
+              </div>
+              <select
+                class="formControlInput"
+                name="codingProjectsModel"
+                required
+              >
+                <option value="modelA">Model A: BackEnd - Basic</option>
+                <option value="modelB">Model B: FrontEnd - Basic</option>
+                <option value="modelC">
+                  Model C: Fullstack I [Basic] [BackEnd + FrontEnd]
+                </option>
+                <option value="modelA+">Model A+: BackEnd - Complex</option>
+                <option value="modelB+">Model B+: FrontEnd - Complex</option>
+                <option value="modelC+">
+                  Model C+: Fullstack II [Complex] [BackEnd + FrontEnd]
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal data -->
+        <div class="formControlArea">
+          <div class="headingField">
+            <div id="codingProjectsHelp" class="helpText">Age: </div>
+              <input type="number"
+              class="formControlInput"
+              id="currentAgeField"
+              name="currentAge"
+              required
+              />
+          </div>
+          <div class="headingField">
+            <div id="codingProjectsHelp" class="helpText">Gender: </div>
+          </div>
+          <div class="fieldInputs">
+            <div class="inputDivArea">
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label><br />
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label><br/>
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Other</label><br />
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact data -->
+        <div class="formControlArea">
+          <div class="headingField">
+            <h3 class="fieldHeadArea">Need to contact us?</h3>
+          </div>
+          <div class="fieldInputs">
+            <div class="inputDivArea">
+              <div id="emailHelp" class="helpText">Email:</div>
+              <input
+                type="email"
+                class="formControlInput"
+                id="emailField"
+                name="email"
+                required
+              />
+            </div>
+            <div class="fieldInputs">
+              <div class="inputDivArea">
+                <div id="telephoneHelp" class="helpText">Phone number:</div>
+                <input
+                  type="tel"
+                  class="formControlInput"
+                  id="telephoneField"
+                  name="telephone"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rating system -->
+        <div class="formControlArea">
+          <div class="headingField">
+            <h3 class="fieldHeadArea">Rating:</h3>
+          </div>
+          <div class="fieldInputs">
+            <h5>Rating I:</h5>
+            <div class="inputDivArea">
+              <input
+                type="radio"
+                id="excellent"
+                name="ratingI"
+                value="excellent"
+              />
+              <label for="excellent">5 stars</label>
+              <input type="radio" id="good" name="ratingI" value="good" />
+              <label for="good">3 stars</label>
+              <input type="radio" id="bad" name="ratingI" value="bad" />
+              <label for="bad">1 star</label>
+            </div>
+          </div>
+          <div class="fieldInputs">
+            <h5>Rating II:</h5>
+            <div class="inputDivArea">
+              <input
+                type="radio"
+                id="excellent"
+                name="ratingII"
+                value="excellent"
+              />
+              <label for="excellent">5 stars</label>
+              <input type="radio" id="good" name="ratingII" value="good" />
+              <label for="good">3 stars</label>
+              <input type="radio" id="bad" name="ratingII" value="bad" />
+              <label for="bad">1 star</label>
+            </div>
+          </div>
+          <div class="fieldInputs">
+            <h5>Rating III:</h5>
+            <div class="inputDivArea">
+              <input
+                type="radio"
+                id="excellent"
+                name="ratingIII"
+                value="excellent"
+              />
+              <label for="excellent">5 stars</label>
+              <input type="radio" id="good" name="ratingIII" value="good" />
+              <label for="good">3 stars</label>
+              <input type="radio" id="bad" name="ratingIII" value="bad" />
+              <label for="bad">1 star</label>
+            </div>
+          </div>
+          <div class="fieldInputs">
+            <h5>Rating IV:</h5>
+            <div class="inputDivArea">
+              <input
+                type="radio"
+                id="excellent"
+                name="ratingIV"
+                value="excellent"
+              />
+              <label for="excellent">5 stars</label>
+              <input type="radio" id="good" name="ratingIV" value=good />
+              <label for="good">3 stars</label>
+              <input type="radio" id="bad" name="ratingIV" value="bad" />
+              <label for="bad">1 star</label>
+          </div>
+        </div>
+
+        <button type="submit">I'M READY!</button>
+      </form>
+    </div>
+  </body>
+</html>
